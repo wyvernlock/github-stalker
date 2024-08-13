@@ -16,7 +16,7 @@ GithubStalker is a Go-based CLI tool that helps you identify GitHub users who yo
 ## Setup
 
 1. Clone this repository.
-2. Duplicate the .env.example file located at /internal/.env-example and rename it to .env in the same directory. Then, Replace GITHUB_TOKEN with your personal access token and GITHUB_USERNAME with your GitHub username in the .env file. 
+2. Duplicate the .env.example file located at /internal/.env-example and rename it to .env in the same directory. Replace GITHUB_TOKEN with your personal access token and GITHUB_USERNAME with your GitHub username in the .env file. 
 3. Run `go mod tidy` to install dependencies.
 
 ## Usage
@@ -33,4 +33,4 @@ The output will display a list of GitHub usernames who are not following you bac
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! If you notice any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Your help in fixing bugs, adding features, or enhancing documentation is greatly appreciated. Thanks for contributing and helping make this project better!
