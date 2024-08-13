@@ -16,7 +16,7 @@ GithubStalker is a Go-based CLI tool that helps you identify GitHub users who yo
 ## Setup
 
 1. Clone this repository.
-2. Duplicate the .env.example file located at /internal/.env-example and rename it to .env in the same directory. Then, replace YOUR_GITHUB_TOKEN with your actual GitHub personal access token.
+2. Duplicate the .env.example file located at /internal/.env-example and rename it to .env in the same directory. Then, Replace GITHUB_TOKEN with your personal access token and GITHUB_USERNAME with your GitHub username in the .env file. 
 3. Run `go mod tidy` to install dependencies.
 
 ## Usage
